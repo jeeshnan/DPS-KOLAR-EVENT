@@ -1,0 +1,33 @@
+body
+{
+    background-color: black;
+}
+.text-center
+{
+    color: white;
+}
+.grid-box {
+    margin: 50px;
+    background-color:rgb(175,221,229);
+    padding: 20px;
+    border: 1px solid rgb(0,49,53);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
+    border-color: rgb(0,49,53);
+    color: rgb(0,49,53);
+}
+
+.grid-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.btn {
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #337ab7;
+    color: rgb(0,49,53);
+}
